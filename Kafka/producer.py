@@ -12,17 +12,17 @@ def read_config():
         config[parameter] = value.strip()
   return config
 
-  config = read_config()
-  topic = "data_capture"
+config = read_config()
+topic = "data_capture"
   
   # creates a new producer instance
-  producer = Producer(config)
+producer = Producer(config)
 
   # produces a sample message
-  key = "key"
-  value = "value"
-  producer.produce(topic, key=key, value=value)
-  print(f"Produced message to topic {topic}: key = {key:12} value = {value:12}")
+key = "key"
+value = "value"
+producer.produce(topic, key=key, value=value)
+print(f"Produced message to topic {topic}: key = {key:12} value = {value:12}")
   
   # send any outstanding or buffered messages to the Kafka broker
-  producer.flush()
+producer.flush()

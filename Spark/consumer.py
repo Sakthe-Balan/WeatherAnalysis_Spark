@@ -12,14 +12,17 @@ def read_config():
         config[parameter] = value.strip()
   return config
 
+config = read_config()
+topic = "data_capture"
+
   # sets the consumer group ID and offset  
-  config["group.id"] = "python-group-1"
-  config["auto.offset.reset"] = "earliest"
+config["group.id"] = "python-group-1"
+config["auto.offset.reset"] = "earliest"
 
   # creates a new consumer and subscribes to your topic
-  consumer = Consumer(config)
-  consumer.subscribe([topic])
-  try:
+consumer = Consumer(config)
+consumer.subscribe([topic])
+try:
     while True:
       # consumer polls the topic and prints any incoming messages
       msg = consumer.poll(1.0)
@@ -27,8 +30,8 @@ def read_config():
         key = msg.key().decode("utf-8")
         value = msg.value().decode("utf-8")
         print(f"Consumed message from topic {topic}: key = {key:12} value = {value:12}")
-  except KeyboardInterrupt:
+except KeyboardInterrupt:
     pass
-  finally:
+finally:
     # closes the consumer connection
     consumer.close()
