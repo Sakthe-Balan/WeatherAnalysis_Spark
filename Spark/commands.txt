@@ -1,0 +1,11 @@
+#install Java runtime environment (JRE)
+sudo apt-get install openjdk-8-jre-headless
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre
+#download spark, visit https://spark.apache.org/downloads.html if you want a different version
+wget http://d3kbcqa49mib13.cloudfront.net/spark-2.1.0-bin-hadoop2.7.tgz
+#untar and set a symlink
+sudo tar -xvzf spark-2.1.0-bin-hadoop2.7.tgz -C /opt
+sudo ln -s spark-2.1.0-bin-hadoop2.7 /opt/spark
+
+	
+/opt/spark/bin/spark-shell
