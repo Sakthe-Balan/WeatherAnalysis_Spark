@@ -96,7 +96,7 @@ def kafka_producer_with_mysql(filename, bootstrap_servers='localhost:9092'):
                 print("Error inserting row:", e)
 
             # Introduce a delay between producing messages (optional)
-            time.sleep(0.5)
+            time.sleep(2)
 
     # Flush the Kafka producer to ensure all messages are delivered
     producer.flush()
