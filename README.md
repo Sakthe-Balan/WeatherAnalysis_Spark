@@ -1,4 +1,5 @@
 # Real-Time Weather Analysis with Stream and Batch Processing
+![Arch](https://github.com/Sakthe-Balan/WeatherAnalysis_Spark/assets/103580234/f4237c08-f72c-430b-9982-b961db1150bc)
 
 ## Overview
 
