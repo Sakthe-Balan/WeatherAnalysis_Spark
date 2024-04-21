@@ -1,28 +1,35 @@
-from confluent_kafka import Producer, Consumer
+import csv
+import time
+from confluent_kafka import Producer
 
-def read_config():
-  # reads the client configuration from client.properties
-  # and returns it as a key-value map
-  config = {}
-  with open("client.properties") as fh:
-    for line in fh:
-      line = line.strip()
-      if len(line) != 0 and line[0] != "#":
-        parameter, value = line.strip().split('=', 1)
-        config[parameter] = value.strip()
-  return config
+def delivery_report(err, msg):
+    if err is not None:
+        print("Message delivery failed:", err)
+    else:
+        print("Message delivered to", msg.topic(), "partition", msg.partition())
 
-config = read_config()
-topic = "data_capture"
-  
-  # creates a new producer instance
-producer = Producer(config)
+def kafka_producer(filename, bootstrap_servers='localhost:9092'):
+    # Configure the producer
+    conf = {'bootstrap.servers': bootstrap_servers}
 
-  # produces a sample message
-key = "key"
-value = "value"
-producer.produce(topic, key=key, value=value)
-print(f"Produced message to topic {topic}: key = {key:12} value = {value:12}")
-  
-  # send any outstanding or buffered messages to the Kafka broker
-producer.flush()
+    # Create the producer
+    producer = Producer(conf)
+
+    # Read the CSV file
+    with open(filename, 'r') as file:
+        reader = csv.reader(file)
+        next(reader)  # Skip header row
+        for row in reader:
+            # Send each row as a message
+            producer.produce('weather_read', value=','.join(row).encode('utf-8'), callback=delivery_report)
+            # Introduce a delay between producing messages (optional)
+            time.sleep(0.5)
+
+    # Flush the producer to ensure all messages are delivered
+    producer.flush()
+
+    # Close the producer
+    producer.close()
+
+# Example usage
+kafka_producer('weatherHistory.csv')

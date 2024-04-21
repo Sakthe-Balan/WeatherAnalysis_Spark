@@ -1,37 +1,38 @@
-from confluent_kafka import Producer, Consumer
+from confluent_kafka import Consumer, KafkaError
 
-def read_config():
-  # reads the client configuration from client.properties
-  # and returns it as a key-value map
-  config = {}
-  with open("client.properties") as fh:
-    for line in fh:
-      line = line.strip()
-      if len(line) != 0 and line[0] != "#":
-        parameter, value = line.strip().split('=', 1)
-        config[parameter] = value.strip()
-  return config
+def kafka_consumer(group_id, bootstrap_servers='localhost:9092'):
+    # Configure the consumer
+    conf = {'bootstrap.servers': bootstrap_servers, 'group.id': group_id}
 
-config = read_config()
-topic = "data_capture"
+    # Create the consumer
+    consumer = Consumer(conf)
 
-  # sets the consumer group ID and offset  
-config["group.id"] = "python-group-1"
-config["auto.offset.reset"] = "earliest"
+    # Subscribe to the topic
+    consumer.subscribe(['weather_read'])
 
-  # creates a new consumer and subscribes to your topic
-consumer = Consumer(config)
-consumer.subscribe([topic])
-try:
-    while True:
-      # consumer polls the topic and prints any incoming messages
-      msg = consumer.poll(1.0)
-      if msg is not None and msg.error() is None:
-        key = msg.key().decode("utf-8")
-        value = msg.value().decode("utf-8")
-        print(f"Consumed message from topic {topic}: key = {key:12} value = {value:12}")
-except KeyboardInterrupt:
-    pass
-finally:
-    # closes the consumer connection
-    consumer.close()
+    try:
+        while True:
+            # Poll for messages
+            msg = consumer.poll(timeout=1.0)
+
+            if msg is None:
+                continue
+            if msg.error():
+                if msg.error().code() == KafkaError._PARTITION_EOF:
+                    # End of partition
+                    continue
+                else:
+                    # Error
+                    print("Consumer error:", msg.error())
+                    break
+
+            # Print the received message
+            
+            print('Received message value: {}'.format(msg.value().decode('utf-8')))
+
+    finally:
+        # Close the consumer
+        consumer.close()
+
+# Example usage
+kafka_consumer('Weather')
