@@ -55,8 +55,8 @@ def batch_producer(bootstrap_servers='localhost:9092', topic='weather_data_batch
                 batch_data.append(data)
 
             # Send batch data to Kafka as JSON
-            for data in batch_data:
-                producer.produce(topic, value=json.dumps(data).encode('utf-8'))
+            # Note: This sends the entire batch as a single message
+            producer.produce(topic, value=json.dumps(batch_data).encode('utf-8'))
             producer.flush()
             logging.info(f"Batch of {len(batch_data)} rows sent to Kafka topic '{topic}'")
 
