@@ -9,3 +9,5 @@ sudo ln -s spark-2.1.0-bin-hadoop2.7 /opt/spark
 
 	
 /opt/spark/bin/spark-shell
+
+https://medium.com/@aitmsi/single-node-spark-pyspark-cluster-on-windows-subsystem-for-linux-wsl2-22860888a98d
