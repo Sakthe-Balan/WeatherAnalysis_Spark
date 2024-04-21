@@ -5,6 +5,7 @@ import mysql.connector
 import os
 from dotenv import load_dotenv
 from datetime import datetime
+import json
 
 load_dotenv()
 
@@ -64,8 +65,24 @@ def kafka_producer_with_mysql(filename, bootstrap_servers='localhost:9092'):
         reader = csv.reader(file)
         next(reader)  # Skip header row
         for row in reader:
-            # Send each row to Kafka
-            producer.produce('weather_read', value=','.join(row).encode('utf-8'), callback=delivery_report)
+           # Prepare data as a dictionary
+            data = {
+                'Formatted Date': datetime.strptime(row[0], '%Y-%m-%d %H:%M:%S.%f %z').isoformat(),
+                'Summary': row[1],
+                'Precip Type': row[2],
+                'Temperature (C)': float(row[3]),
+                'Apparent Temperature (C)': float(row[4]),
+                'Humidity': float(row[5]),
+                'Wind Speed (km/h)': float(row[6]),
+                'Wind Bearing (degrees)': float(row[7]),
+                'Visibility (km)': float(row[8]),
+                'Loud Cover': float(row[9]),
+                'Pressure (millibars)': float(row[10]),
+                'Daily Summary': row[11]
+            }
+
+            # Send data to Kafka as JSON
+            producer.produce('weather_read', value=json.dumps(data).encode('utf-8'), callback=delivery_report)
 
             # Insert into MySQL table
             try:
