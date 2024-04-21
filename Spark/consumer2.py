@@ -83,7 +83,7 @@ def kafka_batch_consumer(group_id, bootstrap_servers='localhost:9092', output_fi
 
                 # Convert JSON to list of dictionaries
                 batch_data = json.loads(json_data)
-
+                print(batch_data)
                 # Iterate through each record in the batch
                 for record in batch_data:
                     # Iterate through each numerical column in the record

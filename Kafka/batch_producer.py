@@ -62,7 +62,7 @@ def batch_producer(bootstrap_servers='localhost:9092', topic='weather_data_batch
 
             # Fetch the next batch
             rows = mysql_cursor.fetchmany(batch_size)
-            time.sleep(10)
+            time.sleep(5)
 
         # Close connections
         mysql_cursor.close()

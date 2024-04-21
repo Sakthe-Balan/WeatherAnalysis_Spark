@@ -1,0 +1,296 @@
+2024-04-21 19:12:01 - Min/Max/Avg Values:
+Temperature (C): Min=12.383333333333333, Max=12.383333333333333, Avg=12.383333333333333
+Humidity: Min=0.69, Max=0.69, Avg=0.69
+Wind Speed (km/h): Min=9.8049, Max=9.8049, Avg=9.8049
+Wind Bearing (degrees): Min=110, Max=176.0, Avg=176.0
+Visibility (km): Min=11.2056, Max=11.2056, Avg=11.2056
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1014.49, Avg=1014.49
+2024-04-21 19:12:09 - Min/Max/Avg Values:
+Temperature (C): Min=10.227777777777776, Max=12.383333333333333, Avg=11.305555555555554
+Humidity: Min=0.69, Max=0.75, Avg=0.72
+Wind Speed (km/h): Min=8.4042, Max=9.8049, Avg=9.10455
+Wind Bearing (degrees): Min=110, Max=176.0, Avg=170.0
+Visibility (km): Min=11.2056, Max=11.2056, Avg=11.2056
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1014.7, Avg=1014.595
+2024-04-21 19:12:16 - Min/Max/Avg Values:
+Temperature (C): Min=9.227777777777778, Max=12.383333333333333, Avg=10.612962962962962
+Humidity: Min=0.69, Max=0.78, Avg=0.7399999999999999
+Wind Speed (km/h): Min=8.4042, Max=9.8049, Avg=9.2414
+Wind Bearing (degrees): Min=110, Max=176.0, Avg=164.0
+Visibility (km): Min=9.982000000000001, Max=11.2056, Avg=10.797733333333333
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.38, Avg=1014.8566666666667
+2024-04-21 19:12:24 - Min/Max/Avg Values:
+Temperature (C): Min=7.827777777777779, Max=12.383333333333333, Avg=9.916666666666666
+Humidity: Min=0.69, Max=0.87, Avg=0.7725
+Wind Speed (km/h): Min=7.3738, Max=9.8049, Avg=8.7745
+Wind Bearing (degrees): Min=110, Max=176.0, Avg=161.0
+Visibility (km): Min=9.982000000000001, Max=11.2056, Avg=10.5938
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.81, Avg=1015.095
+2024-04-21 19:12:32 - Min/Max/Avg Values:
+Temperature (C): Min=6.67777777777778, Max=12.383333333333333, Avg=9.268888888888888
+Humidity: Min=0.69, Max=0.91, Avg=0.8
+Wind Speed (km/h): Min=5.796, Max=9.8049, Avg=8.178799999999999
+Wind Bearing (degrees): Min=110, Max=176.0, Avg=159.8
+Visibility (km): Min=9.982000000000001, Max=15.826300000000002, Avg=11.6403
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.89, Avg=1015.2540000000001
+2024-04-21 19:12:40 - Min/Max/Avg Values:
+Temperature (C): Min=6.122222222222224, Max=12.383333333333333, Avg=8.744444444444445
+Humidity: Min=0.69, Max=0.91, Avg=0.8183333333333334
+Wind Speed (km/h): Min=5.796, Max=9.8049, Avg=7.862166666666667
+Wind Bearing (degrees): Min=110, Max=176.0, Avg=159.16666666666666
+Visibility (km): Min=9.982000000000001, Max=15.826300000000002, Avg=12.061583333333333
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.9, Avg=1015.3616666666667
+2024-04-21 19:12:48 - Min/Max/Avg Values:
+Temperature (C): Min=5.327777777777779, Max=12.383333333333333, Avg=8.256349206349208
+Humidity: Min=0.69, Max=0.95, Avg=0.8371428571428572
+Wind Speed (km/h): Min=5.796, Max=9.8049, Avg=7.580800000000001
+Wind Bearing (degrees): Min=110, Max=176.0, Avg=158.85714285714286
+Visibility (km): Min=8.1305, Max=15.826300000000002, Avg=11.5
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1015.4414285714286
+2024-04-21 19:12:55 - Min/Max/Avg Values:
+Temperature (C): Min=4.355555555555558, Max=12.383333333333333, Avg=7.768750000000001
+Humidity: Min=0.69, Max=0.95, Avg=0.8512500000000001
+Wind Speed (km/h): Min=5.796, Max=10.9158, Avg=7.997675000000001
+Wind Bearing (degrees): Min=110, Max=190.0, Avg=162.75
+Visibility (km): Min=3.3649, Max=15.826300000000002, Avg=10.4831125
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1015.4975000000001
+2024-04-21 19:13:02 - Min/Max/Avg Values:
+Temperature (C): Min=4.355555555555558, Max=12.383333333333333, Avg=7.935802469135804
+Humidity: Min=0.69, Max=0.95, Avg=0.8555555555555556
+Wind Speed (km/h): Min=3.6386, Max=10.9158, Avg=7.513333333333334
+Wind Bearing (degrees): Min=110, Max=194.0, Avg=166.22222222222223
+Visibility (km): Min=3.3649, Max=15.826300000000002, Avg=10.985566666666667
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1014.6144444444445
+2024-04-21 19:13:10 - Min/Max/Avg Values:
+Temperature (C): Min=4.261111111111112, Max=12.383333333333333, Avg=7.568333333333333
+Humidity: Min=0.69, Max=0.95, Avg=0.8620000000000001
+Wind Speed (km/h): Min=3.6386, Max=10.9158, Avg=7.36897
+Wind Bearing (degrees): Min=110, Max=194.0, Avg=166.7
+Visibility (km): Min=3.3649, Max=15.826300000000002, Avg=10.36196
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1014.6740000000002
+2024-04-21 19:13:18 - Min/Max/Avg Values:
+Temperature (C): Min=3.2166666666666663, Max=12.383333333333333, Avg=7.172727272727273
+Humidity: Min=0.69, Max=0.95, Avg=0.8672727272727273
+Wind Speed (km/h): Min=3.6386, Max=10.9158, Avg=7.250854545454545
+Wind Bearing (degrees): Min=110, Max=194.0, Avg=167.72727272727272
+Visibility (km): Min=3.3649, Max=15.826300000000002, Avg=9.894181818181819
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1014.7200000000001
+2024-04-21 19:13:26 - Min/Max/Avg Values:
+Temperature (C): Min=3.2166666666666663, Max=12.383333333333333, Avg=6.900462962962963
+Humidity: Min=0.69, Max=0.95, Avg=0.8716666666666667
+Wind Speed (km/h): Min=3.6386, Max=10.9158, Avg=7.137666666666667
+Wind Bearing (degrees): Min=110, Max=194.0, Avg=169.0
+Visibility (km): Min=3.3649, Max=15.826300000000002, Avg=9.563400000000001
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1014.7341666666667
+2024-04-21 19:13:34 - Min/Max/Avg Values:
+Temperature (C): Min=2.7111111111111126, Max=12.383333333333333, Avg=6.578205128205128
+Humidity: Min=0.69, Max=0.96, Avg=0.8784615384615386
+Wind Speed (km/h): Min=3.6386, Max=10.9158, Avg=7.201653846153846
+Wind Bearing (degrees): Min=110, Max=194.0, Avg=168.84615384615384
+Visibility (km): Min=0.5152, Max=15.826300000000002, Avg=8.867384615384616
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1014.7000000000002
+2024-04-21 19:13:42 - Min/Max/Avg Values:
+Temperature (C): Min=2.7111111111111126, Max=12.383333333333333, Avg=6.3809523809523805
+Humidity: Min=0.69, Max=1.0, Avg=0.8871428571428572
+Wind Speed (km/h): Min=3.6386, Max=10.9158, Avg=7.06445
+Wind Bearing (degrees): Min=110, Max=194.0, Avg=168.85714285714286
+Visibility (km): Min=0.5152, Max=15.826300000000002, Avg=8.4295
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1014.6750000000002
+2024-04-21 19:13:50 - Min/Max/Avg Values:
+Temperature (C): Min=2.7111111111111126, Max=12.383333333333333, Avg=6.414444444444444
+Humidity: Min=0.69, Max=1.0, Avg=0.8900000000000001
+Wind Speed (km/h): Min=3.6386, Max=10.9158, Avg=7.200993333333333
+Wind Bearing (degrees): Min=110, Max=194.0, Avg=166.6
+Visibility (km): Min=0.5152, Max=15.826300000000002, Avg=8.24642
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1014.6300000000002
+2024-04-21 19:13:57 - Min/Max/Avg Values:
+Temperature (C): Min=2.7111111111111126, Max=12.383333333333333, Avg=6.572222222222223
+Humidity: Min=0.69, Max=1.0, Avg=0.8893750000000001
+Wind Speed (km/h): Min=3.6386, Max=15.681400000000002, Avg=7.73101875
+Wind Bearing (degrees): Min=110, Max=194.0, Avg=164.4375
+Visibility (km): Min=0.5152, Max=15.826300000000002, Avg=8.43136875
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1014.5612500000002
+2024-04-21 19:14:05 - Min/Max/Avg Values:
+Temperature (C): Min=2.7111111111111126, Max=12.383333333333333, Avg=6.844771241830066
+Humidity: Min=0.69, Max=1.0, Avg=0.8835294117647061
+Wind Speed (km/h): Min=3.6386, Max=20.7046, Avg=8.494170588235292
+Wind Bearing (degrees): Min=110, Max=194.0, Avg=163.05882352941177
+Visibility (km): Min=0.5152, Max=15.826300000000002, Avg=8.522582352941177
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1014.4723529411766
+2024-04-21 19:14:12 - Min/Max/Avg Values:
+Temperature (C): Min=2.7111111111111126, Max=12.850000000000001, Avg=7.178395061728395
+Humidity: Min=0.69, Max=1.0, Avg=0.8733333333333335
+Wind Speed (km/h): Min=3.6386, Max=20.7046, Avg=9.142116666666665
+Wind Bearing (degrees): Min=110, Max=194.0, Avg=162.38888888888889
+Visibility (km): Min=0.5152, Max=15.826300000000002, Avg=8.661800000000001
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1014.3761111111113
+2024-04-21 19:14:20 - Min/Max/Avg Values:
+Temperature (C): Min=2.7111111111111126, Max=13.961111111111112, Avg=7.535380116959064
+Humidity: Min=0.63, Max=1.0, Avg=0.8605263157894738
+Wind Speed (km/h): Min=3.6386, Max=23.972900000000003, Avg=9.922684210526315
+Wind Bearing (degrees): Min=110, Max=194.0, Avg=162.26315789473685
+Visibility (km): Min=0.5152, Max=15.826300000000002, Avg=8.795684210526318
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1014.2468421052632
+2024-04-21 19:14:27 - Min/Max/Avg Values:
+Temperature (C): Min=2.7111111111111126, Max=14.97777777777778, Avg=7.907500000000001
+Humidity: Min=0.51, Max=1.0, Avg=0.8430000000000002
+Wind Speed (km/h): Min=3.6386, Max=23.972900000000003, Avg=10.62439
+Wind Bearing (degrees): Min=110, Max=194.0, Avg=162.65
+Visibility (km): Min=0.5152, Max=15.826300000000002, Avg=8.91618
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1014.0780000000001
+2024-04-21 19:14:34 - Min/Max/Avg Values:
+Temperature (C): Min=2.7111111111111126, Max=14.97777777777778, Avg=8.1989417989418
+Humidity: Min=0.51, Max=1.0, Avg=0.8300000000000002
+Wind Speed (km/h): Min=3.6386, Max=23.972900000000003, Avg=11.198699999999999
+Wind Bearing (degrees): Min=110, Max=194.0, Avg=162.04761904761904
+Visibility (km): Min=0.5152, Max=15.826300000000002, Avg=9.034400000000002
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1013.8833333333334
+2024-04-21 19:14:42 - Min/Max/Avg Values:
+Temperature (C): Min=2.7111111111111126, Max=15.02222222222222, Avg=8.509090909090908
+Humidity: Min=0.51, Max=1.0, Avg=0.8154545454545457
+Wind Speed (km/h): Min=3.6386, Max=26.7743, Avg=11.906681818181818
+Wind Bearing (degrees): Min=110, Max=194.0, Avg=161.95454545454547
+Visibility (km): Min=0.5152, Max=15.826300000000002, Avg=9.13309090909091
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1013.6545454545455
+2024-04-21 19:14:50 - Min/Max/Avg Values:
+Temperature (C): Min=2.7111111111111126, Max=15.044444444444443, Avg=8.793236714975846
+Humidity: Min=0.51, Max=1.0, Avg=0.8034782608695654
+Wind Speed (km/h): Min=3.6386, Max=26.7743, Avg=12.2969
+Wind Bearing (degrees): Min=110, Max=194.0, Avg=161.8695652173913
+Visibility (km): Min=0.5152, Max=15.826300000000002, Avg=9.170000000000002
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1013.3973913043479
+2024-04-21 19:14:58 - Min/Max/Avg Values:
+Temperature (C): Min=2.7111111111111126, Max=15.088888888888887, Avg=9.055555555555555
+Humidity: Min=0.5, Max=1.0, Avg=0.7908333333333335
+Wind Speed (km/h): Min=3.6386, Max=26.7743, Avg=12.500979166666667
+Wind Bearing (degrees): Min=110, Max=194.0, Avg=161.41666666666666
+Visibility (km): Min=0.5152, Max=15.826300000000002, Avg=9.219262500000001
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1013.1337500000001
+2024-04-21 19:15:06 - Min/Max/Avg Values:
+Temperature (C): Min=2.7111111111111126, Max=15.088888888888887, Avg=9.291333333333332
+Humidity: Min=0.5, Max=1.0, Avg=0.7796000000000002
+Wind Speed (km/h): Min=3.6386, Max=26.7743, Avg=12.565728000000002
+Wind Bearing (degrees): Min=110, Max=194.0, Avg=161.32
+Visibility (km): Min=0.5152, Max=15.826300000000002, Avg=9.298716000000002
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1012.8588000000001
+2024-04-21 19:15:14 - Min/Max/Avg Values:
+Temperature (C): Min=2.7111111111111126, Max=15.088888888888887, Avg=9.465384615384615
+Humidity: Min=0.5, Max=1.0, Avg=0.7723076923076925
+Wind Speed (km/h): Min=3.6386, Max=26.7743, Avg=12.51031923076923
+Wind Bearing (degrees): Min=110, Max=194.0, Avg=160.5
+Visibility (km): Min=0.5152, Max=15.826300000000002, Avg=9.372057692307694
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1012.5861538461539
+2024-04-21 19:15:21 - Min/Max/Avg Values:
+Temperature (C): Min=2.7111111111111126, Max=15.088888888888887, Avg=9.59320987654321
+Humidity: Min=0.5, Max=1.0, Avg=0.7674074074074076
+Wind Speed (km/h): Min=3.6386, Max=26.7743, Avg=12.479885185185186
+Wind Bearing (degrees): Min=110, Max=194.0, Avg=159.37037037037038
+Visibility (km): Min=0.5152, Max=15.826300000000002, Avg=9.39464814814815
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1012.3122222222222
+2024-04-21 19:15:28 - Min/Max/Avg Values:
+Temperature (C): Min=2.7111111111111126, Max=15.088888888888887, Avg=9.74484126984127
+Humidity: Min=0.5, Max=1.0, Avg=0.7610714285714287
+Wind Speed (km/h): Min=3.6386, Max=26.7743, Avg=12.542475
+Wind Bearing (degrees): Min=110, Max=194.0, Avg=159.0
+Visibility (km): Min=0.5152, Max=15.826300000000002, Avg=9.459325000000002
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1012.0457142857142
+2024-04-21 19:15:36 - Min/Max/Avg Values:
+Temperature (C): Min=2.7111111111111126, Max=15.088888888888887, Avg=9.848659003831417
+Humidity: Min=0.5, Max=1.0, Avg=0.7586206896551727
+Wind Speed (km/h): Min=3.6386, Max=26.7743, Avg=12.325937931034483
+Wind Bearing (degrees): Min=110, Max=235.0, Avg=161.6206896551724
+Visibility (km): Min=0.5152, Max=15.826300000000002, Avg=9.678875862068967
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1011.8196551724138
+2024-04-21 19:15:43 - Min/Max/Avg Values:
+Temperature (C): Min=2.7111111111111126, Max=15.088888888888887, Avg=9.942037037037036
+Humidity: Min=0.5, Max=1.0, Avg=0.7580000000000002
+Wind Speed (km/h): Min=3.6386, Max=26.7743, Avg=12.51936
+Wind Bearing (degrees): Min=110, Max=235.0, Avg=163.86666666666667
+Visibility (km): Min=0.5152, Max=15.826300000000002, Avg=9.852126666666667
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1011.6136666666666
+2024-04-21 19:15:50 - Min/Max/Avg Values:
+Temperature (C): Min=2.7111111111111126, Max=15.088888888888887, Avg=9.998387096774191
+Humidity: Min=0.5, Max=1.0, Avg=0.7593548387096776
+Wind Speed (km/h): Min=3.6386, Max=26.7743, Avg=12.48061612903226
+Wind Bearing (degrees): Min=110, Max=235.0, Avg=165.38709677419354
+Visibility (km): Min=0.5152, Max=15.826300000000002, Avg=10.041725806451613
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1011.4148387096774
+2024-04-21 19:15:58 - Min/Max/Avg Values:
+Temperature (C): Min=2.7111111111111126, Max=15.088888888888887, Avg=10.018055555555554
+Humidity: Min=0.5, Max=1.0, Avg=0.7631250000000002
+Wind Speed (km/h): Min=3.6386, Max=26.7743, Avg=12.295368750000002
+Wind Bearing (degrees): Min=110, Max=235.0, Avg=166.78125
+Visibility (km): Min=0.5152, Max=15.826300000000002, Avg=10.219475
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1011.2346875000001
+2024-04-21 19:16:05 - Min/Max/Avg Values:
+Temperature (C): Min=2.7111111111111126, Max=15.088888888888887, Avg=9.886195286195285
+Humidity: Min=0.5, Max=1.0, Avg=0.7675757575757577
+Wind Speed (km/h): Min=3.6386, Max=26.7743, Avg=12.187212121212124
+Wind Bearing (degrees): Min=110, Max=303.0, Avg=170.9090909090909
+Visibility (km): Min=0.5152, Max=15.826300000000002, Avg=10.209839393939394
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1011.2842424242426
+2024-04-21 19:16:12 - Min/Max/Avg Values:
+Temperature (C): Min=2.7111111111111126, Max=15.088888888888887, Avg=9.891013071895424
+Humidity: Min=0.5, Max=1.0, Avg=0.772058823529412
+Wind Speed (km/h): Min=3.6386, Max=26.7743, Avg=12.023385294117649
+Wind Bearing (degrees): Min=110, Max=303.0, Avg=172.11764705882354
+Visibility (km): Min=0.5152, Max=15.826300000000002, Avg=10.349458823529412
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1011.1388235294118
+2024-04-21 19:16:19 - Min/Max/Avg Values:
+Temperature (C): Min=2.7111111111111126, Max=15.088888888888887, Avg=9.893492063492062
+Humidity: Min=0.5, Max=1.0, Avg=0.7765714285714288
+Wind Speed (km/h): Min=2.5921000000000003, Max=26.7743, Avg=11.753920000000003
+Wind Bearing (degrees): Min=110, Max=303.0, Avg=172.0
+Visibility (km): Min=0.5152, Max=15.826300000000002, Avg=10.396
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1011.0054285714286
+2024-04-21 19:16:27 - Min/Max/Avg Values:
+Temperature (C): Min=2.7111111111111126, Max=15.088888888888887, Avg=9.890277777777776
+Humidity: Min=0.5, Max=1.0, Avg=0.781388888888889
+Wind Speed (km/h): Min=2.5921000000000003, Max=26.7743, Avg=11.579030555555557
+Wind Bearing (degrees): Min=110, Max=303.0, Avg=172.22222222222223
+Visibility (km): Min=0.5152, Max=15.826300000000002, Avg=10.293266666666668
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1010.8986111111112
+2024-04-21 19:16:34 - Min/Max/Avg Values:
+Temperature (C): Min=2.7111111111111126, Max=15.088888888888887, Avg=9.857057057057055
+Humidity: Min=0.5, Max=1.0, Avg=0.7870270270270272
+Wind Speed (km/h): Min=2.5921000000000003, Max=26.7743, Avg=11.394013513513515
+Wind Bearing (degrees): Min=110, Max=303.0, Avg=173.67567567567568
+Visibility (km): Min=0.5152, Max=15.826300000000002, Avg=10.309221621621623
+Loud Cover: Min=0.0, Max=0.0, Avg=0.0
+Pressure (millibars): Min=110, Max=1015.92, Avg=1010.7981081081083
